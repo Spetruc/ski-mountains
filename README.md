@@ -86,3 +86,7 @@ Daily weather collection now updates up to **100 resorts per run**, prioritizing
 resorts without weather. Larger directories take multiple days to fill in, and
 existing snapshots remain available. A missing elevation uses Open-Meteo's
 inferred model elevation; do not display it as a verified resort base elevation.
+
+
+### Timeout-resistant importer (v0.3)
+The importer now queries 14 smaller, overlapping geographic boxes intersected with the US OSM area, sequentially with retries and alternate Overpass endpoints. It writes checkpoint files under `data/osm_batches/` and deduplicates overlapping results by OSM object ID. These are still **unverified candidates**; preview before applying. GitHub Actions uploads batch checkpoints even when a later region fails. Public Overpass services can still be unavailable or rate-limited; retries are not a guarantee.

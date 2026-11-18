@@ -8,6 +8,8 @@ import argparse
 import json
 import math
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -15,16 +17,42 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'data' / 'resorts.json'
 REPORT = ROOT / 'data' / 'osm_import_report.json'
-ENDPOINT = 'https://overpass.kumi.systems/api/interpreter'
-# Areas explicitly tagged as winter-sports destinations or piste sites.
-QUERY = '''[out:json][timeout:180];
+ENDPOINTS = [
+    'https://overpass.kumi.systems/api/interpreter',
+    'https://overpass-api.de/api/interpreter',
+]
+# Small overlapping US bounding boxes, intersected with the US country area.
+# Deliberately excludes territories; candidates are still marked for review.
+REGIONS = {
+    'northeast': (39.0, -80.5, 48.0, -66.0),
+    'mid_atlantic': (35.0, -84.5, 42.0, -74.0),
+    'southeast': (24.0, -92.0, 36.0, -75.0),
+    'great_lakes': (40.0, -93.0, 49.5, -80.0),
+    'central': (32.0, -104.0, 43.0, -89.0),
+    'northern_plains': (42.0, -105.0, 49.5, -92.0),
+    'rockies_north': (41.0, -117.0, 49.5, -103.0),
+    'rockies_south': (31.0, -115.0, 42.0, -102.0),
+    'pacific_north': (41.0, -125.0, 49.5, -115.0),
+    'pacific_south': (32.0, -125.0, 42.0, -113.0),
+    'alaska_south': (51.0, -170.0, 63.0, -129.0),
+    'alaska_north': (62.0, -170.0, 72.0, -129.0),
+    'alaska_west': (51.0, -180.0, 72.0, -169.0),
+    'hawaii': (18.0, -161.0, 23.0, -154.0),
+}
+CACHE = ROOT / 'data' / 'osm_batches'
+
+
+def query_for(bbox):
+    bounds = ','.join(map(str, bbox))
+    return f'''[out:json][timeout:70];
 area["ISO3166-1"="US"][admin_level=2]->.usa;
 (
- nwr["landuse"="winter_sports"]["name"](area.usa);
- nwr["site"="piste"]["name"](area.usa);
- nwr["sport"="skiing"]["name"]["leisure"="sports_centre"](area.usa);
+ nwr["landuse"="winter_sports"]["name"](area.usa)({bounds});
+ nwr["site"="piste"]["name"](area.usa)({bounds});
+ nwr["sport"="skiing"]["name"]["leisure"="sports_centre"](area.usa)({bounds});
 );
 out center tags;'''
+
 EXCLUDE = re.compile(r'\b(trail|chairlift|gondola|magic carpet|parking|ski school|rental|snowmobile|cross.country|nordic center|nordic centre)\b', re.I)
 
 
@@ -40,9 +68,41 @@ def distance_km(a, b):
 
 
 def download():
-    request = urllib.request.Request(ENDPOINT, data=urllib.parse.urlencode({'data': QUERY}).encode(), headers={'User-Agent': 'SnowScope/0.2 (noncommercial resort directory importer)'})
-    with urllib.request.urlopen(request, timeout=240) as response:
-        return json.load(response)['elements']
+    CACHE.mkdir(parents=True, exist_ok=True)
+    combined = {}
+    for region, bbox in REGIONS.items():
+        checkpoint = CACHE / f'{region}.json'
+        if checkpoint.exists():
+            elements = json.loads(checkpoint.read_text(encoding='utf-8'))
+            print(f'{region}: using saved batch ({len(elements)} features)', flush=True)
+        else:
+            last_error = None
+            for attempt in range(4):
+                endpoint = ENDPOINTS[attempt % len(ENDPOINTS)]
+                request = urllib.request.Request(
+                    endpoint,
+                    data=urllib.parse.urlencode({'data': query_for(bbox)}).encode(),
+                    headers={'User-Agent': 'SnowScope/0.3 (open-source ski resort directory; sequential requests)'})
+                try:
+                    print(f'{region}: request {attempt + 1}/4', flush=True)
+                    with urllib.request.urlopen(request, timeout=105) as response:
+                        payload = json.load(response)
+                    elements = payload['elements']
+                    checkpoint.write_text(json.dumps(elements), encoding='utf-8')
+                    print(f'{region}: received {len(elements)} features', flush=True)
+                    break
+                except (OSError, ValueError, KeyError) as exc:
+                    last_error = exc
+                    print(f'{region}: {type(exc).__name__}: {exc}', flush=True)
+                    time.sleep(5 * (attempt + 1))
+            else:
+                raise RuntimeError(
+                    f'{region} failed after retries; completed batch files remain available. '
+                    f'Last error: {last_error}')
+            time.sleep(2)
+        for element in elements:
+            combined[(element['type'], element['id'])] = element
+    return list(combined.values())
 
 
 def collect(elements, existing):
