@@ -11,7 +11,8 @@ permissions:
   contents: write
 jobs:
   import:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -19,6 +20,13 @@ jobs:
           python-version: '3.12'
       - name: Query OpenStreetMap and prepare report
         run: python scripts/import_osm_resorts.py ${{ inputs.apply_changes && '--apply' || '--preview' }}
+      - name: Upload batch checkpoints (including on failure)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: osm-batches
+          path: data/osm_batches/
+          if-no-files-found: ignore
       - name: Upload candidate review report
         uses: actions/upload-artifact@v4
         with:
