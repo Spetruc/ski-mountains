@@ -18,7 +18,6 @@ API = 'https://api.open-meteo.com/v1/forecast'
 def fetch(resort):
     params = {
         'latitude': resort['lat'], 'longitude': resort['lon'],
-        'elevation': resort['elevation_m'],
         'current': 'temperature_2m,relative_humidity_2m,apparent_temperature,wind_speed_10m,snowfall,weather_code',
         'hourly': 'snowfall',
         'daily': 'temperature_2m_max,temperature_2m_min,snowfall_sum,precipitation_sum,weather_code',
@@ -26,6 +25,8 @@ def fetch(resort):
         'precipitation_unit': 'inch', 'timezone': 'auto', 'forecast_days': 7,
         'past_days': 2,
     }
+    if resort.get('elevation_m') is not None:
+        params['elevation'] = resort['elevation_m']
     url = API + '?' + urllib.parse.urlencode(params)
     request = urllib.request.Request(url, headers={'User-Agent': 'SnowScope-MVP/0.1 (GitHub Pages weather dashboard)'})
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -62,8 +63,17 @@ def main():
             existing = json.loads(OUTPUT.read_text(encoding='utf-8')).get('resorts', {})
         except (ValueError, OSError):
             pass
+    # Cap daily calls for free-tier courtesy. Rotate through the directory,
+    # while prioritizing mountains that have never received weather.
+    from datetime import date
+    batch_size = 100
+    missing = [r for r in resorts if r['id'] not in existing]
+    present = [r for r in resorts if r['id'] in existing]
+    offset = (date.today().toordinal() * batch_size) % max(1, len(present))
+    ordered = missing + (present[offset:] + present[:offset])
+    batch = ordered[:batch_size]
     updated = 0
-    for resort in resorts:
+    for resort in batch:
         try:
             existing[resort['id']] = fetch(resort)
             updated += 1
@@ -75,7 +85,7 @@ def main():
         raise RuntimeError('No resort weather fetched; refusing to publish empty update')
     payload = {'generated_at': datetime.now(timezone.utc).isoformat(), 'resorts': existing}
     OUTPUT.write_text(json.dumps(payload, indent=2) + '\n', encoding='utf-8')
-    print(f'Updated {updated}/{len(resorts)} resorts')
+    print(f'Updated {updated}/{len(batch)} selected resorts ({len(resorts)} listed total)')
 
 if __name__ == '__main__':
     main()

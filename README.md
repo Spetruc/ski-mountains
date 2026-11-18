@@ -58,3 +58,31 @@ Open the URL printed by Vite (usually http://localhost:5173).
 2. Connect openly licensed resort operational reports with source timestamps.
 3. Add source freshness and quality indicators.
 4. Introduce weather history and regional JSON shards when the directory grows.
+
+## Expand US resort coverage (new)
+
+A manual GitHub Actions workflow, **Expand US resort directory (OpenStreetMap)**,
+queries OpenStreetMap for named winter-sports areas in the United States.
+It does **not** assume every mapped area is a verified operating downhill resort.
+New entries are marked `needs_review: true`; some may be duplicates, closed,
+Nordic-only, or missing their state/elevation. `Unverified` means the state was
+not provided by OSM, not that it is a US state.
+
+1. In **Actions**, open **Expand US resort directory (OpenStreetMap)**.
+2. Click **Run workflow**, leave **apply_changes** unchecked, and run it.
+3. Download the `osm-candidates` artifact from the completed workflow and
+   inspect `osm_import_report.json`.
+4. If the candidates look acceptable, run again with **apply_changes** checked.
+   The workflow commits the expanded `data/resorts.json` directory to `main`.
+5. **Deploy website** should run automatically from that commit.
+6. Run **Update daily weather** to begin fetching new weather reports.
+
+**Important:** Overpass is a community-operated public API and may time out or
+rate-limit queries. If it fails, retry later rather than running frequent jobs.
+OpenStreetMap data is licensed ODbL; preserve attribution and review obligations
+before redistributing a modified database. Details: https://www.openstreetmap.org/copyright
+
+Daily weather collection now updates up to **100 resorts per run**, prioritizing
+resorts without weather. Larger directories take multiple days to fill in, and
+existing snapshots remain available. A missing elevation uses Open-Meteo's
+inferred model elevation; do not display it as a verified resort base elevation.
