@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-11-19T19:04:17.850761+00:00",
+  "generated_at": "2026-11-20T18:40:25.384081+00:00",
   "resorts": {
     "vail": {
-      "updated_at": "2026-11-19T19:04:13.993547+00:00",
+      "updated_at": "2026-11-20T18:40:14.836306+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 48.4,
-        "relative_humidity_2m": 14,
-        "apparent_temperature": 40.5,
-        "wind_speed_10m": 3.6,
+        "temperature_2m": 38.6,
+        "relative_humidity_2m": 54,
+        "apparent_temperature": 25.4,
+        "wind_speed_10m": 19.7,
         "snowfall": 0.0,
-        "weather_code": 3
+        "weather_code": 2
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 48.8,
-          "low_f": 26.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 36.1,
-          "low_f": 18.4,
-          "snowfall_in": 0.3,
-          "weather_code": 73
+          "high_f": 39.1,
+          "low_f": 22.9,
+          "snowfall_in": 0.0,
+          "weather_code": 53
         },
         {
           "date": "2026-11-21",
-          "high_f": 31.8,
-          "low_f": 18.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 41.3,
+          "high_f": 32.6,
           "low_f": 18.2,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-23",
-          "high_f": 41.1,
-          "low_f": 22.3,
+          "date": "2026-11-22",
+          "high_f": 39.1,
+          "low_f": 15.0,
           "snowfall_in": 0.0,
           "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 39.1,
+          "low_f": 18.6,
+          "snowfall_in": 0.3,
+          "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 35.5,
-          "low_f": 20.8,
+          "high_f": 31.9,
+          "low_f": 13.6,
+          "snowfall_in": 0.6,
+          "weather_code": 86
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 46.2,
+          "low_f": 13.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-25",
-          "high_f": 49.8,
-          "low_f": 20.7,
+          "date": "2026-11-26",
+          "high_f": 47.6,
+          "low_f": 24.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -73,66 +73,66 @@
       "lifts_total": null
     },
     "breckenridge": {
-      "updated_at": "2026-11-19T19:04:14.345750+00:00",
+      "updated_at": "2026-11-20T18:40:15.191029+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 44.4,
-        "relative_humidity_2m": 13,
-        "apparent_temperature": 36.7,
-        "wind_speed_10m": 2.0,
+        "temperature_2m": 36.1,
+        "relative_humidity_2m": 49,
+        "apparent_temperature": 21.6,
+        "wind_speed_10m": 21.8,
         "snowfall": 0.0,
-        "weather_code": 3
+        "weather_code": 0
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 45.3,
-          "low_f": 16.5,
+          "date": "2026-11-20",
+          "high_f": 36.7,
+          "low_f": 15.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-20",
-          "high_f": 33.5,
-          "low_f": 12.9,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
           "date": "2026-11-21",
-          "high_f": 28.3,
-          "low_f": 12.4,
+          "high_f": 27.8,
+          "low_f": 10.5,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 39.5,
-          "low_f": 13.9,
+          "high_f": 37.9,
+          "low_f": 11.6,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 37.2,
-          "low_f": 18.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
+          "high_f": 35.8,
+          "low_f": 15.7,
+          "snowfall_in": 0.5,
+          "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 31.2,
-          "low_f": 17.8,
+          "high_f": 28.0,
+          "low_f": 5.5,
+          "snowfall_in": 0.3,
+          "weather_code": 86
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 46.0,
+          "low_f": 6.2,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-25",
-          "high_f": 45.2,
-          "low_f": 17.7,
+          "date": "2026-11-26",
+          "high_f": 45.6,
+          "low_f": 19.9,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -144,66 +144,66 @@
       "lifts_total": null
     },
     "keystone": {
-      "updated_at": "2026-11-19T19:04:14.689008+00:00",
+      "updated_at": "2026-11-20T18:40:15.715076+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 45.1,
-        "relative_humidity_2m": 12,
-        "apparent_temperature": 35.9,
-        "wind_speed_10m": 6.0,
+        "temperature_2m": 37.0,
+        "relative_humidity_2m": 43,
+        "apparent_temperature": 20.3,
+        "wind_speed_10m": 26.2,
         "snowfall": 0.0,
-        "weather_code": 0
+        "weather_code": 2
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 46.1,
-          "low_f": 24.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 34.3,
-          "low_f": 17.4,
+          "high_f": 38.4,
+          "low_f": 20.8,
           "snowfall_in": 0.0,
-          "weather_code": 73
+          "weather_code": 51
         },
         {
           "date": "2026-11-21",
           "high_f": 28.5,
-          "low_f": 16.3,
+          "low_f": 16.2,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 39.2,
-          "low_f": 16.5,
+          "high_f": 38.2,
+          "low_f": 15.4,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 37.1,
-          "low_f": 21.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
+          "high_f": 35.8,
+          "low_f": 21.7,
+          "snowfall_in": 0.5,
+          "weather_code": 86
         },
         {
           "date": "2026-11-24",
-          "high_f": 31.3,
-          "low_f": 19.6,
+          "high_f": 28.3,
+          "low_f": 10.5,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 46.5,
+          "low_f": 12.4,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-25",
-          "high_f": 44.6,
-          "low_f": 19.6,
+          "date": "2026-11-26",
+          "high_f": 47.0,
+          "low_f": 24.6,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -215,66 +215,66 @@
       "lifts_total": null
     },
     "steamboat": {
-      "updated_at": "2026-11-19T19:04:15.043237+00:00",
+      "updated_at": "2026-11-20T18:40:16.072036+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 47.8,
-        "relative_humidity_2m": 24,
-        "apparent_temperature": 40.2,
-        "wind_speed_10m": 4.0,
+        "temperature_2m": 38.4,
+        "relative_humidity_2m": 68,
+        "apparent_temperature": 30.0,
+        "wind_speed_10m": 9.8,
         "snowfall": 0.0,
         "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.0,
+      "recent_snowfall_24h_in": 0.1,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 51.7,
-          "low_f": 23.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 39.5,
-          "low_f": 24.7,
+          "high_f": 42.2,
+          "low_f": 25.7,
           "snowfall_in": 0.1,
           "weather_code": 73
         },
         {
           "date": "2026-11-21",
-          "high_f": 32.8,
-          "low_f": 19.5,
+          "high_f": 35.1,
+          "low_f": 20.9,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 39.2,
-          "low_f": 20.5,
+          "high_f": 38.8,
+          "low_f": 22.3,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 41.1,
-          "low_f": 26.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
+          "high_f": 39.6,
+          "low_f": 22.9,
+          "snowfall_in": 0.4,
+          "weather_code": 73
         },
         {
           "date": "2026-11-24",
-          "high_f": 34.2,
-          "low_f": 24.4,
+          "high_f": 33.0,
+          "low_f": 20.6,
           "snowfall_in": 0.1,
           "weather_code": 71
         },
         {
           "date": "2026-11-25",
-          "high_f": 43.8,
-          "low_f": 24.3,
+          "high_f": 41.4,
+          "low_f": 20.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 43.6,
+          "low_f": 27.9,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -286,66 +286,66 @@
       "lifts_total": null
     },
     "aspen-snowmass": {
-      "updated_at": "2026-11-19T19:04:15.386247+00:00",
+      "updated_at": "2026-11-20T18:40:16.430100+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 41.3,
-        "relative_humidity_2m": 27,
-        "apparent_temperature": 32.7,
-        "wind_speed_10m": 5.9,
+        "temperature_2m": 39.5,
+        "relative_humidity_2m": 50,
+        "apparent_temperature": 26.0,
+        "wind_speed_10m": 19.9,
         "snowfall": 0.0,
-        "weather_code": 3
+        "weather_code": 1
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 45.5,
-          "low_f": 23.7,
+          "date": "2026-11-20",
+          "high_f": 40.4,
+          "low_f": 25.1,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 32.9,
+          "low_f": 20.4,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-20",
-          "high_f": 33.8,
-          "low_f": 21.5,
-          "snowfall_in": 0.5,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 33.7,
-          "low_f": 20.4,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
           "date": "2026-11-22",
-          "high_f": 42.6,
-          "low_f": 21.2,
+          "high_f": 40.2,
+          "low_f": 16.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 39.8,
-          "low_f": 24.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
+          "high_f": 38.3,
+          "low_f": 20.5,
+          "snowfall_in": 1.0,
+          "weather_code": 75
         },
         {
           "date": "2026-11-24",
-          "high_f": 36.0,
-          "low_f": 23.5,
+          "high_f": 32.2,
+          "low_f": 14.3,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 39.5,
+          "low_f": 14.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-25",
-          "high_f": 44.3,
-          "low_f": 23.7,
+          "date": "2026-11-26",
+          "high_f": 42.0,
+          "low_f": 24.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -357,66 +357,66 @@
       "lifts_total": null
     },
     "telluride": {
-      "updated_at": "2026-11-19T19:04:15.791408+00:00",
+      "updated_at": "2026-11-20T18:40:16.788321+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 41.0,
-        "relative_humidity_2m": 38,
-        "apparent_temperature": 34.1,
-        "wind_speed_10m": 3.3,
+        "temperature_2m": 35.1,
+        "relative_humidity_2m": 72,
+        "apparent_temperature": 26.4,
+        "wind_speed_10m": 9.9,
         "snowfall": 0.0,
         "weather_code": 3
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 41.6,
-          "low_f": 28.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 34.0,
-          "low_f": 22.5,
-          "snowfall_in": 0.5,
+          "high_f": 35.9,
+          "low_f": 25.7,
+          "snowfall_in": 0.4,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 28.1,
-          "low_f": 13.5,
-          "snowfall_in": 1.3,
-          "weather_code": 86
+          "high_f": 28.8,
+          "low_f": 19.7,
+          "snowfall_in": 0.2,
+          "weather_code": 73
         },
         {
           "date": "2026-11-22",
           "high_f": 41.3,
-          "low_f": 15.8,
+          "low_f": 18.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 39.2,
-          "low_f": 18.9,
-          "snowfall_in": 0.0,
+          "high_f": 37.1,
+          "low_f": 21.6,
+          "snowfall_in": 0.4,
           "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 33.1,
-          "low_f": 18.2,
-          "snowfall_in": 0.0,
-          "weather_code": 71
+          "high_f": 33.6,
+          "low_f": 14.2,
+          "snowfall_in": 0.2,
+          "weather_code": 85
         },
         {
           "date": "2026-11-25",
-          "high_f": 44.0,
-          "low_f": 20.1,
+          "high_f": 46.0,
+          "low_f": 20.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 44.5,
+          "low_f": 24.8,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -428,68 +428,68 @@
       "lifts_total": null
     },
     "park-city": {
-      "updated_at": "2026-11-19T19:04:16.137154+00:00",
+      "updated_at": "2026-11-20T18:40:17.146539+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 34.5,
-        "relative_humidity_2m": 88,
-        "apparent_temperature": 23.5,
-        "wind_speed_10m": 16.6,
-        "snowfall": 0.138,
-        "weather_code": 75
+        "temperature_2m": 31.3,
+        "relative_humidity_2m": 70,
+        "apparent_temperature": 23.3,
+        "wind_speed_10m": 7.1,
+        "snowfall": 0.0,
+        "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.6,
+      "recent_snowfall_24h_in": 2.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 34.6,
-          "low_f": 28.0,
-          "snowfall_in": 3.1,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 30.7,
-          "low_f": 18.5,
-          "snowfall_in": 0.7,
+          "high_f": 31.6,
+          "low_f": 19.7,
+          "snowfall_in": 1.0,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 32.0,
-          "low_f": 16.6,
+          "high_f": 28.7,
+          "low_f": 15.9,
           "snowfall_in": 0.0,
-          "weather_code": 45
+          "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 35.6,
-          "low_f": 19.1,
+          "high_f": 36.2,
+          "low_f": 21.4,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 34.2,
-          "low_f": 20.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
+          "high_f": 31.1,
+          "low_f": 18.2,
+          "snowfall_in": 0.5,
+          "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 35.5,
-          "low_f": 18.8,
+          "high_f": 36.7,
+          "low_f": 16.3,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 37.8,
-          "low_f": 24.9,
+          "high_f": 41.5,
+          "low_f": 24.5,
           "snowfall_in": 0.0,
-          "weather_code": 51
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 40.7,
+          "low_f": 24.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         }
       ],
       "base_depth_in": null,
@@ -499,68 +499,68 @@
       "lifts_total": null
     },
     "snowbird": {
-      "updated_at": "2026-11-19T19:04:16.508622+00:00",
+      "updated_at": "2026-11-20T18:40:17.501666+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 33.4,
-        "relative_humidity_2m": 84,
-        "apparent_temperature": 21.9,
-        "wind_speed_10m": 17.2,
+        "temperature_2m": 24.6,
+        "relative_humidity_2m": 95,
+        "apparent_temperature": 13.8,
+        "wind_speed_10m": 13.6,
         "snowfall": 0.0,
-        "weather_code": 61
+        "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.2,
+      "recent_snowfall_24h_in": 1.5,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 33.7,
-          "low_f": 25.1,
-          "snowfall_in": 1.6,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 28.6,
-          "low_f": 19.3,
-          "snowfall_in": 1.5,
+          "high_f": 28.9,
+          "low_f": 17.5,
+          "snowfall_in": 1.4,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 26.1,
-          "low_f": 12.9,
-          "snowfall_in": 0.1,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 33.0,
-          "low_f": 17.6,
+          "high_f": 25.7,
+          "low_f": 19.8,
           "snowfall_in": 0.0,
           "weather_code": 71
         },
         {
-          "date": "2026-11-23",
-          "high_f": 29.8,
-          "low_f": 14.6,
+          "date": "2026-11-22",
+          "high_f": 33.5,
+          "low_f": 20.6,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
+          "date": "2026-11-23",
+          "high_f": 27.2,
+          "low_f": 13.6,
+          "snowfall_in": 0.8,
+          "weather_code": 85
+        },
+        {
           "date": "2026-11-24",
-          "high_f": 31.4,
-          "low_f": 11.8,
+          "high_f": 32.1,
+          "low_f": 11.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 36.1,
-          "low_f": 23.0,
+          "high_f": 38.6,
+          "low_f": 25.0,
           "snowfall_in": 0.0,
-          "weather_code": 51
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 34.7,
+          "low_f": 18.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         }
       ],
       "base_depth_in": null,
@@ -570,68 +570,68 @@
       "lifts_total": null
     },
     "alta": {
-      "updated_at": "2026-11-19T19:04:16.856314+00:00",
+      "updated_at": "2026-11-20T18:40:17.860522+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 30.9,
-        "relative_humidity_2m": 84,
-        "apparent_temperature": 19.0,
-        "wind_speed_10m": 17.3,
-        "snowfall": 0.165,
-        "weather_code": 75
+        "temperature_2m": 22.8,
+        "relative_humidity_2m": 88,
+        "apparent_temperature": 11.8,
+        "wind_speed_10m": 13.5,
+        "snowfall": 0.0,
+        "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.7,
+      "recent_snowfall_24h_in": 2.3,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 30.9,
-          "low_f": 22.8,
-          "snowfall_in": 3.1,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 26.3,
-          "low_f": 17.1,
-          "snowfall_in": 1.8,
+          "high_f": 26.6,
+          "low_f": 15.9,
+          "snowfall_in": 1.6,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 23.4,
-          "low_f": 10.2,
+          "high_f": 23.1,
+          "low_f": 13.8,
           "snowfall_in": 0.0,
           "weather_code": 71
         },
         {
           "date": "2026-11-22",
-          "high_f": 30.2,
-          "low_f": 14.9,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 27.1,
-          "low_f": 11.8,
+          "high_f": 30.8,
+          "low_f": 18.5,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
+          "date": "2026-11-23",
+          "high_f": 24.4,
+          "low_f": 10.8,
+          "snowfall_in": 0.8,
+          "weather_code": 85
+        },
+        {
           "date": "2026-11-24",
-          "high_f": 28.7,
-          "low_f": 9.1,
+          "high_f": 29.3,
+          "low_f": 8.3,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 33.4,
-          "low_f": 20.2,
+          "high_f": 35.9,
+          "low_f": 22.3,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 32.0,
+          "low_f": 15.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         }
       ],
       "base_depth_in": null,
@@ -641,68 +641,68 @@
       "lifts_total": null
     },
     "deer-valley": {
-      "updated_at": "2026-11-19T19:04:17.205820+00:00",
+      "updated_at": "2026-11-20T18:40:18.216821+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 34.3,
-        "relative_humidity_2m": 93,
-        "apparent_temperature": 22.5,
-        "wind_speed_10m": 19.0,
-        "snowfall": 0.138,
-        "weather_code": 75
+        "temperature_2m": 30.8,
+        "relative_humidity_2m": 80,
+        "apparent_temperature": 21.2,
+        "wind_speed_10m": 11.5,
+        "snowfall": 0.0,
+        "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.3,
+      "recent_snowfall_24h_in": 2.1,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 34.4,
-          "low_f": 30.2,
-          "snowfall_in": 3.7,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 31.8,
-          "low_f": 20.2,
-          "snowfall_in": 0.8,
+          "high_f": 32.5,
+          "low_f": 19.9,
+          "snowfall_in": 0.9,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 30.0,
-          "low_f": 12.1,
+          "high_f": 30.1,
+          "low_f": 16.6,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 33.4,
-          "low_f": 14.9,
+          "high_f": 34.2,
+          "low_f": 19.1,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 33.8,
-          "low_f": 16.1,
-          "snowfall_in": 0.0,
-          "weather_code": 51
+          "high_f": 31.4,
+          "low_f": 14.8,
+          "snowfall_in": 0.6,
+          "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 31.3,
-          "low_f": 13.8,
+          "high_f": 33.7,
+          "low_f": 13.9,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 34.9,
-          "low_f": 19.4,
+          "high_f": 38.1,
+          "low_f": 19.6,
           "snowfall_in": 0.0,
-          "weather_code": 51
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 39.0,
+          "low_f": 24.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         }
       ],
       "base_depth_in": null,
@@ -712,66 +712,66 @@
       "lifts_total": null
     },
     "jackson-hole": {
-      "updated_at": "2026-11-19T19:04:17.550596+00:00",
+      "updated_at": "2026-11-20T18:40:18.572445+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 35.9,
-        "relative_humidity_2m": 73,
-        "apparent_temperature": 28.3,
-        "wind_speed_10m": 7.6,
+        "temperature_2m": 33.0,
+        "relative_humidity_2m": 81,
+        "apparent_temperature": 28.0,
+        "wind_speed_10m": 1.4,
         "snowfall": 0.0,
         "weather_code": 3
       },
-      "recent_snowfall_24h_in": 0.1,
+      "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 37.7,
-          "low_f": 24.2,
-          "snowfall_in": 0.3,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 33.3,
-          "low_f": 20.2,
-          "snowfall_in": 0.7,
-          "weather_code": 75
+          "high_f": 34.8,
+          "low_f": 23.8,
+          "snowfall_in": 0.1,
+          "weather_code": 73
         },
         {
           "date": "2026-11-21",
-          "high_f": 27.5,
-          "low_f": 12.8,
-          "snowfall_in": 0.3,
-          "weather_code": 85
+          "high_f": 29.1,
+          "low_f": 19.5,
+          "snowfall_in": 0.6,
+          "weather_code": 75
         },
         {
           "date": "2026-11-22",
-          "high_f": 32.1,
-          "low_f": 13.6,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 32.3,
-          "low_f": 16.1,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 30.8,
-          "low_f": 11.4,
+          "high_f": 30.6,
+          "low_f": 16.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
+          "date": "2026-11-23",
+          "high_f": 31.9,
+          "low_f": 20.6,
+          "snowfall_in": 0.5,
+          "weather_code": 85
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 31.1,
+          "low_f": 11.0,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
           "date": "2026-11-25",
-          "high_f": 36.0,
-          "low_f": 12.0,
+          "high_f": 37.5,
+          "low_f": 14.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 39.0,
+          "low_f": 17.4,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -783,66 +783,66 @@
       "lifts_total": null
     },
     "grand-targhee": {
-      "updated_at": "2026-11-19T19:04:02.664291+00:00",
+      "updated_at": "2026-11-20T18:40:18.931370+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 30.2,
-        "relative_humidity_2m": 82,
-        "apparent_temperature": 21.2,
-        "wind_speed_10m": 10.0,
+        "temperature_2m": 27.0,
+        "relative_humidity_2m": 90,
+        "apparent_temperature": 20.3,
+        "wind_speed_10m": 4.5,
         "snowfall": 0.0,
         "weather_code": 3
       },
       "recent_snowfall_24h_in": 0.1,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 30.4,
-          "low_f": 21.9,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 27.7,
-          "low_f": 20.1,
-          "snowfall_in": 1.1,
+          "high_f": 27.9,
+          "low_f": 18.6,
+          "snowfall_in": 1.4,
           "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 20.9,
-          "low_f": 9.5,
-          "snowfall_in": 0.5,
-          "weather_code": 85
+          "high_f": 22.4,
+          "low_f": 9.9,
+          "snowfall_in": 1.2,
+          "weather_code": 75
         },
         {
           "date": "2026-11-22",
-          "high_f": 27.6,
-          "low_f": 14.1,
+          "high_f": 28.4,
+          "low_f": 14.0,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 26.1,
-          "low_f": 11.3,
-          "snowfall_in": 0.2,
+          "high_f": 26.3,
+          "low_f": 14.7,
+          "snowfall_in": 0.4,
           "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 24.8,
-          "low_f": 7.2,
+          "high_f": 26.3,
+          "low_f": 8.2,
           "snowfall_in": 0.0,
-          "weather_code": 45
+          "weather_code": 71
         },
         {
           "date": "2026-11-25",
-          "high_f": 33.1,
-          "low_f": 15.3,
+          "high_f": 35.1,
+          "low_f": 17.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 32.0,
+          "low_f": 11.1,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -854,14 +854,14 @@
       "lifts_total": null
     },
     "big-sky": {
-      "updated_at": "2026-11-19T19:04:03.045030+00:00",
+      "updated_at": "2026-11-20T18:40:19.290074+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 28.9,
-        "relative_humidity_2m": 77,
-        "apparent_temperature": 22.4,
+        "temperature_2m": 26.9,
+        "relative_humidity_2m": 82,
+        "apparent_temperature": 20.4,
         "wind_speed_10m": 3.4,
         "snowfall": 0.0,
         "weather_code": 3
@@ -869,51 +869,51 @@
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 31.7,
-          "low_f": 14.6,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 29.0,
-          "low_f": 13.1,
-          "snowfall_in": 0.6,
-          "weather_code": 73
+          "high_f": 27.3,
+          "low_f": 17.4,
+          "snowfall_in": 0.5,
+          "weather_code": 75
         },
         {
           "date": "2026-11-21",
-          "high_f": 25.3,
-          "low_f": 9.1,
+          "high_f": 20.8,
+          "low_f": 10.7,
           "snowfall_in": 0.2,
-          "weather_code": 85
+          "weather_code": 73
         },
         {
           "date": "2026-11-22",
-          "high_f": 27.7,
-          "low_f": 13.0,
-          "snowfall_in": 0.2,
-          "weather_code": 85
+          "high_f": 27.2,
+          "low_f": 10.7,
+          "snowfall_in": 0.1,
+          "weather_code": 73
         },
         {
           "date": "2026-11-23",
-          "high_f": 27.7,
-          "low_f": 10.2,
-          "snowfall_in": 0.0,
-          "weather_code": 51
+          "high_f": 28.2,
+          "low_f": 11.5,
+          "snowfall_in": 0.4,
+          "weather_code": 85
         },
         {
           "date": "2026-11-24",
-          "high_f": 32.3,
-          "low_f": 9.0,
+          "high_f": 31.8,
+          "low_f": 9.8,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 36.9,
-          "low_f": 14.0,
+          "high_f": 37.0,
+          "low_f": 15.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.2,
+          "low_f": 17.2,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -925,775 +925,65 @@
       "lifts_total": null
     },
     "sun-valley": {
-      "updated_at": "2026-11-19T19:04:03.461784+00:00",
+      "updated_at": "2026-11-20T18:40:19.647872+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T12:00",
+        "time": "2026-11-20T11:30",
         "interval": 900,
-        "temperature_2m": 32.9,
+        "temperature_2m": 33.0,
         "relative_humidity_2m": 83,
-        "apparent_temperature": 23.5,
-        "wind_speed_10m": 11.9,
-        "snowfall": 0.0,
-        "weather_code": 3
-      },
-      "recent_snowfall_24h_in": 1.4,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 33.3,
-          "low_f": 28.9,
-          "snowfall_in": 1.4,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 35.0,
-          "low_f": 23.8,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 30.5,
-          "low_f": 16.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 31.6,
-          "low_f": 20.6,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 33.6,
-          "low_f": 16.8,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 34.5,
-          "low_f": 15.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 38.9,
-          "low_f": 23.1,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "schweitzer": {
-      "updated_at": "2026-11-19T19:04:03.870985+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 35.7,
-        "relative_humidity_2m": 68,
-        "apparent_temperature": 28.2,
-        "wind_speed_10m": 6.8,
+        "apparent_temperature": 27.4,
+        "wind_speed_10m": 3.1,
         "snowfall": 0.0,
         "weather_code": 2
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 37.6,
-          "low_f": 31.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 36.9,
-          "low_f": 31.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 32.9,
-          "low_f": 22.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 29.8,
-          "low_f": 22.4,
-          "snowfall_in": 0.5,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 32.4,
-          "low_f": 16.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 34.9,
-          "low_f": 20.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 35.7,
-          "low_f": 20.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "mammoth": {
-      "updated_at": "2026-11-19T19:04:04.215593+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 29.3,
-        "relative_humidity_2m": 82,
-        "apparent_temperature": 18.4,
-        "wind_speed_10m": 14.7,
-        "snowfall": 0.469,
-        "weather_code": 75
-      },
-      "recent_snowfall_24h_in": 6.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 30.1,
-          "low_f": 15.9,
-          "snowfall_in": 5.7,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 26.5,
-          "low_f": 14.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 32.8,
-          "low_f": 2.4,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 29.8,
-          "low_f": 5.4,
-          "snowfall_in": 0.0,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 30.6,
-          "low_f": 9.5,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 36.7,
-          "low_f": 4.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 32.3,
-          "low_f": 12.7,
-          "snowfall_in": 0.0,
-          "weather_code": 85
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "heavenly": {
-      "updated_at": "2026-11-19T19:04:05.170335+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 29.5,
-        "relative_humidity_2m": 93,
-        "apparent_temperature": 21.6,
-        "wind_speed_10m": 8.4,
-        "snowfall": 0.22,
-        "weather_code": 75
-      },
-      "recent_snowfall_24h_in": 3.3,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 31.5,
-          "low_f": 20.5,
-          "snowfall_in": 2.2,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 30.5,
-          "low_f": 18.8,
-          "snowfall_in": 0.2,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 34.5,
-          "low_f": 14.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 32.2,
-          "low_f": 18.0,
-          "snowfall_in": 0.1,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 28.0,
-          "low_f": 14.0,
-          "snowfall_in": 0.1,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 31.4,
-          "low_f": 15.8,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 32.6,
-          "low_f": 17.2,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "mt-bachelor": {
-      "updated_at": "2026-11-19T19:04:05.560288+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 26.6,
-        "relative_humidity_2m": 71,
-        "apparent_temperature": 20.7,
-        "wind_speed_10m": 0.8,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.1,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 27.7,
-          "low_f": 14.1,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 28.8,
-          "low_f": 13.8,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 29.7,
-          "low_f": 18.0,
-          "snowfall_in": 0.5,
-          "weather_code": 86
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 26.9,
-          "low_f": 12.8,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 30.7,
-          "low_f": 14.8,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 28.2,
-          "low_f": 19.8,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 35.3,
-          "low_f": 23.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "timberline": {
-      "updated_at": "2026-11-19T19:04:05.908931+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 23.8,
-        "relative_humidity_2m": 97,
-        "apparent_temperature": 18.1,
-        "wind_speed_10m": 1.4,
-        "snowfall": 0.0,
-        "weather_code": 3
-      },
-      "recent_snowfall_24h_in": 0.6,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 25.7,
-          "low_f": 17.2,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 27.5,
-          "low_f": 19.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 28.9,
-          "low_f": 17.8,
-          "snowfall_in": 0.6,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 26.3,
-          "low_f": 19.4,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 30.6,
-          "low_f": 19.8,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 26.2,
-          "low_f": 21.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 32.3,
-          "low_f": 22.4,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "crystal-mountain": {
-      "updated_at": "2026-11-19T19:04:06.260484+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 32.3,
-        "relative_humidity_2m": 89,
-        "apparent_temperature": 25.6,
-        "wind_speed_10m": 6.0,
-        "snowfall": 0.0,
-        "weather_code": 3
       },
       "recent_snowfall_24h_in": 0.2,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 33.4,
-          "low_f": 27.6,
-          "snowfall_in": 0.1,
-          "weather_code": 73
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 33.4,
-          "low_f": 25.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 35.6,
-          "low_f": 26.0,
-          "snowfall_in": 0.3,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 32.6,
-          "low_f": 24.6,
-          "snowfall_in": 0.4,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 34.0,
-          "low_f": 26.0,
-          "snowfall_in": 0.9,
-          "weather_code": 75
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 34.4,
-          "low_f": 24.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 38.1,
-          "low_f": 27.1,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "stevens-pass": {
-      "updated_at": "2026-11-19T19:04:06.638786+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 34.6,
-        "relative_humidity_2m": 77,
-        "apparent_temperature": 27.0,
-        "wind_speed_10m": 7.6,
-        "snowfall": 0.0,
-        "weather_code": 3
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 36.4,
-          "low_f": 30.6,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 34.7,
-          "low_f": 31.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 31.4,
-          "low_f": 20.2,
-          "snowfall_in": 0.3,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 34.4,
-          "low_f": 25.6,
+          "high_f": 35.1,
+          "low_f": 25.1,
           "snowfall_in": 0.2,
           "weather_code": 73
         },
         {
-          "date": "2026-11-23",
-          "high_f": 33.1,
-          "low_f": 25.6,
-          "snowfall_in": 0.5,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 30.6,
-          "low_f": 24.2,
-          "snowfall_in": 0.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 37.5,
-          "low_f": 24.4,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "mt-baker": {
-      "updated_at": "2026-11-19T19:04:06.981512+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T11:00",
-        "interval": 900,
-        "temperature_2m": 39.5,
-        "relative_humidity_2m": 46,
-        "apparent_temperature": 32.0,
-        "wind_speed_10m": 5.3,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 41.4,
-          "low_f": 31.9,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 36.8,
-          "low_f": 31.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-21",
-          "high_f": 37.2,
-          "low_f": 29.6,
-          "snowfall_in": 0.0,
-          "weather_code": 71
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 34.8,
-          "low_f": 27.8,
-          "snowfall_in": 0.3,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 34.4,
-          "low_f": 29.1,
-          "snowfall_in": 0.5,
-          "weather_code": 73
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 38.6,
-          "low_f": 30.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 39.0,
-          "low_f": 32.3,
-          "snowfall_in": 0.0,
-          "weather_code": 53
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "stowe": {
-      "updated_at": "2026-11-19T19:04:07.362476+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 56.1,
-        "relative_humidity_2m": 42,
-        "apparent_temperature": 50.8,
-        "wind_speed_10m": 4.0,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 56.1,
-          "low_f": 28.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 53.1,
-          "low_f": 37.7,
-          "snowfall_in": 0.0,
-          "weather_code": 0
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 54.2,
-          "low_f": 36.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 52.7,
-          "low_f": 38.6,
-          "snowfall_in": 0.0,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 48.4,
-          "low_f": 30.4,
-          "snowfall_in": 0.1,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 30.4,
-          "low_f": 23.3,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 31.5,
+          "high_f": 31.1,
           "low_f": 21.6,
           "snowfall_in": 0.0,
           "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "killington": {
-      "updated_at": "2026-11-19T19:04:07.796523+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 58.2,
-        "relative_humidity_2m": 32,
-        "apparent_temperature": 51.0,
-        "wind_speed_10m": 6.8,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 59.0,
-          "low_f": 37.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 54.9,
-          "low_f": 38.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 56.6,
-          "low_f": 37.3,
-          "snowfall_in": 0.0,
-          "weather_code": 1
         },
         {
           "date": "2026-11-22",
-          "high_f": 56.1,
-          "low_f": 41.9,
-          "snowfall_in": 0.0,
-          "weather_code": 63
+          "high_f": 33.3,
+          "low_f": 20.8,
+          "snowfall_in": 0.3,
+          "weather_code": 73
         },
         {
           "date": "2026-11-23",
-          "high_f": 52.0,
-          "low_f": 33.7,
-          "snowfall_in": 0.0,
-          "weather_code": 65
+          "high_f": 32.6,
+          "low_f": 15.7,
+          "snowfall_in": 0.5,
+          "weather_code": 73
         },
         {
           "date": "2026-11-24",
-          "high_f": 33.7,
-          "low_f": 24.0,
-          "snowfall_in": 0.1,
-          "weather_code": 85
+          "high_f": 33.6,
+          "low_f": 14.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 35.4,
+          "high_f": 38.7,
+          "low_f": 20.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 38.7,
           "low_f": 22.2,
           "snowfall_in": 0.0,
           "weather_code": 3
@@ -1705,67 +995,777 @@
       "lifts_open": null,
       "lifts_total": null
     },
-    "sugarbush": {
-      "updated_at": "2026-11-19T19:04:08.239057+00:00",
+    "schweitzer": {
+      "updated_at": "2026-11-20T18:40:20.005942+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T14:00",
+        "time": "2026-11-20T10:30",
         "interval": 900,
-        "temperature_2m": 58.8,
-        "relative_humidity_2m": 25,
-        "apparent_temperature": 49.5,
-        "wind_speed_10m": 10.3,
+        "temperature_2m": 32.0,
+        "relative_humidity_2m": 85,
+        "apparent_temperature": 25.4,
+        "wind_speed_10m": 5.0,
+        "snowfall": 0.0,
+        "weather_code": 3
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 34.0,
+          "low_f": 29.2,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 31.4,
+          "low_f": 28.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 29.5,
+          "low_f": 21.0,
+          "snowfall_in": 0.1,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 33.2,
+          "low_f": 19.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 31.7,
+          "low_f": 22.0,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 36.7,
+          "low_f": 28.4,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 33.7,
+          "low_f": 32.1,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "mammoth": {
+      "updated_at": "2026-11-20T18:40:20.366386+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 24.7,
+        "relative_humidity_2m": 52,
+        "apparent_temperature": 11.8,
+        "wind_speed_10m": 15.9,
+        "snowfall": 0.0,
+        "weather_code": 1
+      },
+      "recent_snowfall_24h_in": 1.6,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 25.6,
+          "low_f": 16.2,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 34.7,
+          "low_f": 16.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 26.3,
+          "low_f": 6.2,
+          "snowfall_in": 1.3,
+          "weather_code": 75
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 31.8,
+          "low_f": 6.9,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 36.0,
+          "low_f": 12.0,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 36.9,
+          "low_f": 16.6,
+          "snowfall_in": 0.1,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.7,
+          "low_f": 10.4,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "heavenly": {
+      "updated_at": "2026-11-20T18:40:21.082618+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 27.3,
+        "relative_humidity_2m": 77,
+        "apparent_temperature": 20.9,
+        "wind_speed_10m": 2.7,
+        "snowfall": 0.028,
+        "weather_code": 73
+      },
+      "recent_snowfall_24h_in": 0.6,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 30.8,
+          "low_f": 20.1,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 36.1,
+          "low_f": 20.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 34.3,
+          "low_f": 23.4,
+          "snowfall_in": 0.1,
+          "weather_code": 85
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 37.3,
+          "low_f": 20.3,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 43.5,
+          "low_f": 24.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 43.8,
+          "low_f": 26.5,
+          "snowfall_in": 0.0,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 41.1,
+          "low_f": 25.4,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "mt-bachelor": {
+      "updated_at": "2026-11-20T18:40:21.439094+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 25.1,
+        "relative_humidity_2m": 91,
+        "apparent_temperature": 18.7,
+        "wind_speed_10m": 3.4,
         "snowfall": 0.0,
         "weather_code": 0
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 60.1,
-          "low_f": 40.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 54.1,
-          "low_f": 39.3,
+          "high_f": 27.8,
+          "low_f": 14.0,
           "snowfall_in": 0.0,
-          "weather_code": 0
+          "weather_code": 45
         },
         {
           "date": "2026-11-21",
-          "high_f": 54.8,
-          "low_f": 37.6,
-          "snowfall_in": 0.0,
-          "weather_code": 2
+          "high_f": 28.7,
+          "low_f": 18.6,
+          "snowfall_in": 0.3,
+          "weather_code": 73
         },
         {
           "date": "2026-11-22",
-          "high_f": 54.5,
-          "low_f": 41.6,
-          "snowfall_in": 0.0,
-          "weather_code": 63
+          "high_f": 29.0,
+          "low_f": 15.4,
+          "snowfall_in": 0.1,
+          "weather_code": 85
         },
         {
           "date": "2026-11-23",
-          "high_f": 48.1,
-          "low_f": 30.4,
+          "high_f": 29.9,
+          "low_f": 18.1,
+          "snowfall_in": 0.3,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 31.5,
+          "low_f": 25.8,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 33.6,
+          "low_f": 27.9,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 33.3,
+          "low_f": 24.2,
+          "snowfall_in": 0.1,
+          "weather_code": 71
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "timberline": {
+      "updated_at": "2026-11-20T18:40:21.794889+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 30.6,
+        "relative_humidity_2m": 50,
+        "apparent_temperature": 20.9,
+        "wind_speed_10m": 9.1,
+        "snowfall": 0.0,
+        "weather_code": 2
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 31.5,
+          "low_f": 20.0,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 28.4,
+          "low_f": 21.9,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 30.9,
+          "low_f": 18.9,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 27.9,
+          "low_f": 20.2,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 27.2,
+          "low_f": 23.8,
+          "snowfall_in": 0.7,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 31.4,
+          "low_f": 26.1,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 29.9,
+          "low_f": 25.2,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "crystal-mountain": {
+      "updated_at": "2026-11-20T18:40:22.154622+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 31.9,
+        "relative_humidity_2m": 57,
+        "apparent_temperature": 24.9,
+        "wind_speed_10m": 3.6,
+        "snowfall": 0.0,
+        "weather_code": 3
+      },
+      "recent_snowfall_24h_in": 0.2,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 35.7,
+          "low_f": 23.3,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 36.6,
+          "low_f": 26.0,
+          "snowfall_in": 0.1,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 35.9,
+          "low_f": 25.4,
+          "snowfall_in": 0.0,
+          "weather_code": 71
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 34.1,
+          "low_f": 26.6,
+          "snowfall_in": 0.3,
+          "weather_code": 75
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 30.1,
+          "low_f": 28.1,
+          "snowfall_in": 7.3,
+          "weather_code": 75
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 35.1,
+          "low_f": 28.7,
+          "snowfall_in": 0.3,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.2,
+          "low_f": 31.0,
+          "snowfall_in": 0.0,
+          "weather_code": 55
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "stevens-pass": {
+      "updated_at": "2026-11-20T18:40:22.512963+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 29.9,
+        "relative_humidity_2m": 64,
+        "apparent_temperature": 21.2,
+        "wind_speed_10m": 7.6,
+        "snowfall": 0.0,
+        "weather_code": 3
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 32.0,
+          "low_f": 24.2,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 31.8,
+          "low_f": 23.5,
+          "snowfall_in": 0.0,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 33.0,
+          "low_f": 23.4,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 29.9,
+          "low_f": 23.5,
           "snowfall_in": 0.0,
           "weather_code": 71
         },
         {
           "date": "2026-11-24",
-          "high_f": 30.4,
-          "low_f": 22.9,
+          "high_f": 30.3,
+          "low_f": 27.0,
+          "snowfall_in": 3.1,
+          "weather_code": 75
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 33.3,
+          "low_f": 26.7,
+          "snowfall_in": 0.8,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 34.3,
+          "low_f": 31.5,
+          "snowfall_in": 0.2,
+          "weather_code": 73
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "mt-baker": {
+      "updated_at": "2026-11-20T18:40:22.872350+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T10:30",
+        "interval": 900,
+        "temperature_2m": 30.1,
+        "relative_humidity_2m": 72,
+        "apparent_temperature": 24.6,
+        "wind_speed_10m": 0.9,
+        "snowfall": 0.0,
+        "weather_code": 3
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 31.4,
+          "low_f": 25.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 41.2,
+          "low_f": 25.9,
+          "snowfall_in": 0.0,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 35.3,
+          "low_f": 30.3,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 36.4,
+          "low_f": 29.1,
           "snowfall_in": 0.0,
           "weather_code": 71
         },
         {
+          "date": "2026-11-24",
+          "high_f": 34.0,
+          "low_f": 30.7,
+          "snowfall_in": 2.9,
+          "weather_code": 75
+        },
+        {
           "date": "2026-11-25",
-          "high_f": 32.1,
-          "low_f": 21.2,
+          "high_f": 35.9,
+          "low_f": 31.6,
+          "snowfall_in": 0.8,
+          "weather_code": 67
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.9,
+          "low_f": 35.2,
+          "snowfall_in": 0.0,
+          "weather_code": 80
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "stowe": {
+      "updated_at": "2026-11-20T18:40:23.235109+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 57.8,
+        "relative_humidity_2m": 46,
+        "apparent_temperature": 52.8,
+        "wind_speed_10m": 4.7,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 57.8,
+          "low_f": 36.7,
+          "snowfall_in": 0.0,
+          "weather_code": 0
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 56.6,
+          "low_f": 36.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 53.2,
+          "low_f": 39.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 49.3,
+          "low_f": 30.5,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 33.7,
+          "low_f": 26.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 36.4,
+          "low_f": 23.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 37.9,
+          "low_f": 25.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "killington": {
+      "updated_at": "2026-11-20T18:40:23.594632+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 57.5,
+        "relative_humidity_2m": 45,
+        "apparent_temperature": 49.8,
+        "wind_speed_10m": 10.7,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 57.7,
+          "low_f": 39.6,
+          "snowfall_in": 0.0,
+          "weather_code": 0
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 60.2,
+          "low_f": 38.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 53.3,
+          "low_f": 43.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 51.7,
+          "low_f": 32.3,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 37.7,
+          "low_f": 26.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 39.1,
+          "low_f": 24.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.7,
+          "low_f": 26.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "sugarbush": {
+      "updated_at": "2026-11-20T18:40:24.011209+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 57.5,
+        "relative_humidity_2m": 45,
+        "apparent_temperature": 50.5,
+        "wind_speed_10m": 9.2,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 57.5,
+          "low_f": 42.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 58.8,
+          "low_f": 41.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 53.8,
+          "low_f": 44.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 50.5,
+          "low_f": 31.1,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 33.8,
+          "low_f": 25.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 37.1,
+          "low_f": 22.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.8,
+          "low_f": 25.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -1777,66 +1777,66 @@
       "lifts_total": null
     },
     "jay-peak": {
-      "updated_at": "2026-11-19T19:04:08.609455+00:00",
+      "updated_at": "2026-11-20T18:40:24.370546+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T14:00",
+        "time": "2026-11-20T13:30",
         "interval": 900,
-        "temperature_2m": 53.9,
-        "relative_humidity_2m": 37,
-        "apparent_temperature": 45.2,
-        "wind_speed_10m": 10.3,
+        "temperature_2m": 52.5,
+        "relative_humidity_2m": 62,
+        "apparent_temperature": 46.0,
+        "wind_speed_10m": 9.7,
         "snowfall": 0.0,
-        "weather_code": 1
+        "weather_code": 0
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 54.6,
-          "low_f": 41.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 48.7,
-          "low_f": 37.8,
+          "high_f": 52.6,
+          "low_f": 41.0,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 45
         },
         {
           "date": "2026-11-21",
-          "high_f": 51.5,
-          "low_f": 35.8,
+          "high_f": 54.7,
+          "low_f": 40.6,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-22",
           "high_f": 50.1,
-          "low_f": 37.2,
+          "low_f": 39.0,
           "snowfall_in": 0.0,
-          "weather_code": 55
+          "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 46.2,
-          "low_f": 28.5,
+          "high_f": 46.8,
+          "low_f": 28.0,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 51
         },
         {
           "date": "2026-11-24",
-          "high_f": 28.5,
-          "low_f": 20.9,
-          "snowfall_in": 0.2,
-          "weather_code": 85
+          "high_f": 31.1,
+          "low_f": 23.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 28.5,
-          "low_f": 18.5,
+          "high_f": 33.3,
+          "low_f": 21.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.5,
+          "low_f": 24.3,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
@@ -1848,775 +1848,65 @@
       "lifts_total": null
     },
     "loon": {
-      "updated_at": "2026-11-19T19:04:08.991340+00:00",
+      "updated_at": "2026-11-20T18:40:24.727431+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T14:00",
+        "time": "2026-11-20T13:30",
         "interval": 900,
-        "temperature_2m": 59.7,
-        "relative_humidity_2m": 32,
-        "apparent_temperature": 52.3,
-        "wind_speed_10m": 7.6,
+        "temperature_2m": 58.7,
+        "relative_humidity_2m": 41,
+        "apparent_temperature": 51.5,
+        "wind_speed_10m": 9.2,
         "snowfall": 0.0,
         "weather_code": 0
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 60.3,
-          "low_f": 38.4,
+          "date": "2026-11-20",
+          "high_f": 58.7,
+          "low_f": 43.2,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 0
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-21",
           "high_f": 57.2,
-          "low_f": 40.5,
+          "low_f": 40.1,
           "snowfall_in": 0.0,
-          "weather_code": 2
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 54.7,
-          "low_f": 39.0,
-          "snowfall_in": 0.0,
-          "weather_code": 2
+          "weather_code": 3
         },
         {
           "date": "2026-11-22",
+          "high_f": 53.4,
+          "low_f": 43.9,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-23",
           "high_f": 55.6,
-          "low_f": 42.2,
-          "snowfall_in": 0.0,
-          "weather_code": 61
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 52.8,
-          "low_f": 35.2,
-          "snowfall_in": 0.0,
-          "weather_code": 65
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 35.2,
-          "low_f": 24.1,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 35.7,
-          "low_f": 21.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "cannon": {
-      "updated_at": "2026-11-19T19:04:09.384925+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 55.7,
-        "relative_humidity_2m": 25,
-        "apparent_temperature": 48.2,
-        "wind_speed_10m": 5.3,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 55.9,
-          "low_f": 36.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 53.7,
-          "low_f": 38.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 52.0,
-          "low_f": 36.0,
-          "snowfall_in": 0.0,
-          "weather_code": 2
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 52.7,
-          "low_f": 39.5,
-          "snowfall_in": 0.0,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 49.3,
-          "low_f": 30.3,
-          "snowfall_in": 0.0,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 30.3,
-          "low_f": 19.8,
-          "snowfall_in": 0.2,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 30.0,
-          "low_f": 18.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "sugarloaf": {
-      "updated_at": "2026-11-19T19:04:09.736390+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 59.7,
-        "relative_humidity_2m": 22,
-        "apparent_temperature": 51.6,
-        "wind_speed_10m": 6.9,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 60.1,
-          "low_f": 45.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 54.3,
-          "low_f": 42.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 52.9,
-          "low_f": 37.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 50.9,
-          "low_f": 40.6,
-          "snowfall_in": 0.0,
-          "weather_code": 53
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 50.4,
-          "low_f": 33.3,
+          "low_f": 33.4,
           "snowfall_in": 0.0,
           "weather_code": 63
         },
         {
           "date": "2026-11-24",
-          "high_f": 33.3,
-          "low_f": 21.3,
+          "high_f": 37.8,
+          "low_f": 28.5,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 32.1,
-          "low_f": 20.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "sunday-river": {
-      "updated_at": "2026-11-19T19:04:10.158390+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 61.2,
-        "relative_humidity_2m": 26,
-        "apparent_temperature": 54.4,
-        "wind_speed_10m": 5.2,
-        "snowfall": 0.0,
-        "weather_code": 2
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 61.5,
-          "low_f": 36.9,
+          "high_f": 40.8,
+          "low_f": 25.7,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
-          "date": "2026-11-20",
-          "high_f": 57.7,
-          "low_f": 39.8,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 54.3,
-          "low_f": 37.1,
-          "snowfall_in": 0.0,
-          "weather_code": 1
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 52.0,
-          "low_f": 39.1,
-          "snowfall_in": 0.0,
-          "weather_code": 61
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 51.4,
-          "low_f": 37.4,
-          "snowfall_in": 0.0,
-          "weather_code": 65
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 37.4,
-          "low_f": 24.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 34.3,
-          "low_f": 23.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "holiday-valley": {
-      "updated_at": "2026-11-19T19:04:10.854866+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 58.5,
-        "relative_humidity_2m": 34,
-        "apparent_temperature": 50.6,
-        "wind_speed_10m": 8.9,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 58.5,
-          "low_f": 37.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 56.5,
-          "low_f": 37.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 60.2,
-          "low_f": 37.0,
-          "snowfall_in": 0.0,
-          "weather_code": 2
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 55.2,
-          "low_f": 40.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 47.2,
-          "low_f": 31.0,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 32.3,
-          "low_f": 23.3,
-          "snowfall_in": 0.1,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 35.8,
-          "low_f": 21.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "seven-springs": {
-      "updated_at": "2026-11-19T19:04:11.199258+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 59.0,
-        "relative_humidity_2m": 39,
-        "apparent_temperature": 53.0,
-        "wind_speed_10m": 6.1,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 59.1,
-          "low_f": 38.8,
-          "snowfall_in": 0.0,
-          "weather_code": 0
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 56.0,
-          "low_f": 42.8,
-          "snowfall_in": 0.0,
-          "weather_code": 0
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 58.0,
-          "low_f": 39.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 48.1,
-          "low_f": 41.7,
-          "snowfall_in": 0.0,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 47.3,
-          "low_f": 29.2,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 34.0,
-          "low_f": 23.6,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 36.4,
-          "low_f": 21.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "snowshoe": {
-      "updated_at": "2026-11-19T19:04:11.546551+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 53.3,
-        "relative_humidity_2m": 21,
-        "apparent_temperature": 45.6,
-        "wind_speed_10m": 4.3,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 54.8,
-          "low_f": 37.9,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 53.5,
-          "low_f": 39.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 50.7,
-          "low_f": 32.8,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 42.6,
-          "low_f": 34.1,
-          "snowfall_in": 0.0,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 40.5,
-          "low_f": 24.1,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 30.6,
-          "low_f": 17.8,
-          "snowfall_in": 0.0,
-          "weather_code": 1
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 31.6,
-          "low_f": 14.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "wintergreen": {
-      "updated_at": "2026-11-19T19:04:11.891401+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 58.6,
-        "relative_humidity_2m": 24,
-        "apparent_temperature": 52.5,
-        "wind_speed_10m": 2.4,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 59.1,
-          "low_f": 39.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 57.1,
-          "low_f": 44.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 53.8,
-          "low_f": 36.6,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 45.6,
-          "low_f": 37.6,
-          "snowfall_in": 0.0,
-          "weather_code": 65
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 51.3,
-          "low_f": 31.8,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 41.5,
-          "low_f": 20.8,
-          "snowfall_in": 0.0,
-          "weather_code": 2
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 31.3,
-          "low_f": 17.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "massanutten": {
-      "updated_at": "2026-11-19T19:04:12.236726+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 62.6,
-        "relative_humidity_2m": 21,
-        "apparent_temperature": 55.8,
-        "wind_speed_10m": 4.0,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 62.9,
-          "low_f": 38.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 63.5,
-          "low_f": 46.8,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 60.0,
-          "low_f": 39.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 49.1,
-          "low_f": 43.4,
-          "snowfall_in": 0.0,
-          "weather_code": 65
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 56.4,
-          "low_f": 35.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 45.0,
-          "low_f": 25.6,
-          "snowfall_in": 0.0,
-          "weather_code": 0
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 37.5,
-          "low_f": 21.0,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "beech-mountain": {
-      "updated_at": "2026-11-19T19:04:12.588445+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 54.6,
-        "relative_humidity_2m": 12,
-        "apparent_temperature": 45.3,
-        "wind_speed_10m": 6.5,
-        "snowfall": 0.0,
-        "weather_code": 3
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 54.7,
-          "low_f": 32.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 55.0,
-          "low_f": 38.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 50.3,
-          "low_f": 36.1,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 50.7,
-          "low_f": 37.3,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 42.6,
-          "low_f": 31.1,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 45.1,
-          "low_f": 27.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 35.2,
-          "low_f": 20.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        }
-      ],
-      "base_depth_in": null,
-      "trails_open": null,
-      "trails_total": null,
-      "lifts_open": null,
-      "lifts_total": null
-    },
-    "boyne-mountain": {
-      "updated_at": "2026-11-19T19:04:12.931757+00:00",
-      "source": "Open-Meteo modeled weather",
-      "current": {
-        "time": "2026-11-19T14:00",
-        "interval": 900,
-        "temperature_2m": 61.2,
-        "relative_humidity_2m": 47,
-        "apparent_temperature": 52.0,
-        "wind_speed_10m": 16.5,
-        "snowfall": 0.0,
-        "weather_code": 0
-      },
-      "recent_snowfall_24h_in": 0.0,
-      "daily": [
-        {
-          "date": "2026-11-19",
-          "high_f": 61.2,
-          "low_f": 46.4,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-20",
-          "high_f": 58.6,
-          "low_f": 39.5,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-21",
-          "high_f": 64.7,
-          "low_f": 51.2,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-22",
-          "high_f": 58.6,
-          "low_f": 39.7,
-          "snowfall_in": 0.0,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-23",
-          "high_f": 39.9,
-          "low_f": 29.7,
-          "snowfall_in": 0.0,
-          "weather_code": 85
-        },
-        {
-          "date": "2026-11-24",
-          "high_f": 32.8,
-          "low_f": 26.5,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-25",
-          "high_f": 36.0,
+          "date": "2026-11-26",
+          "high_f": 39.3,
           "low_f": 28.7,
           "snowfall_in": 0.0,
           "weather_code": 3
@@ -2628,69 +1918,779 @@
       "lifts_open": null,
       "lifts_total": null
     },
-    "lutsen": {
-      "updated_at": "2026-11-19T19:04:13.292243+00:00",
+    "cannon": {
+      "updated_at": "2026-11-20T18:40:25.083893+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T13:00",
+        "time": "2026-11-20T13:30",
         "interval": 900,
-        "temperature_2m": 44.7,
-        "relative_humidity_2m": 81,
-        "apparent_temperature": 37.8,
-        "wind_speed_10m": 10.1,
+        "temperature_2m": 54.5,
+        "relative_humidity_2m": 46,
+        "apparent_temperature": 48.4,
+        "wind_speed_10m": 6.0,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 54.5,
+          "low_f": 39.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 56.2,
+          "low_f": 39.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 51.2,
+          "low_f": 41.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 49.8,
+          "low_f": 29.4,
+          "snowfall_in": 0.0,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 32.5,
+          "low_f": 24.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 36.9,
+          "low_f": 21.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.9,
+          "low_f": 25.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "sugarloaf": {
+      "updated_at": "2026-11-20T18:40:10.535372+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 56.4,
+        "relative_humidity_2m": 41,
+        "apparent_temperature": 47.5,
+        "wind_speed_10m": 12.4,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 57.9,
+          "low_f": 41.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 58.3,
+          "low_f": 37.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 51.6,
+          "low_f": 42.1,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 52.9,
+          "low_f": 30.9,
+          "snowfall_in": 0.0,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 33.2,
+          "low_f": 25.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 35.0,
+          "low_f": 23.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.1,
+          "low_f": 25.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "sunday-river": {
+      "updated_at": "2026-11-20T18:40:10.895460+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 58.6,
+        "relative_humidity_2m": 46,
+        "apparent_temperature": 51.9,
+        "wind_speed_10m": 9.2,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 59.0,
+          "low_f": 36.3,
+          "snowfall_in": 0.0,
+          "weather_code": 2
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 57.0,
+          "low_f": 36.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 52.2,
+          "low_f": 38.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 55.9,
+          "low_f": 34.9,
+          "snowfall_in": 0.0,
+          "weather_code": 63
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 37.2,
+          "low_f": 29.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 39.1,
+          "low_f": 26.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 37.6,
+          "low_f": 28.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "holiday-valley": {
+      "updated_at": "2026-11-20T18:40:11.614000+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 59.8,
+        "relative_humidity_2m": 55,
+        "apparent_temperature": 55.4,
+        "wind_speed_10m": 6.5,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 60.7,
+          "low_f": 44.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 62.2,
+          "low_f": 39.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 58.2,
+          "low_f": 42.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 50.0,
+          "low_f": 32.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 38.1,
+          "low_f": 24.9,
+          "snowfall_in": 0.0,
+          "weather_code": 80
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 39.9,
+          "low_f": 24.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 44.0,
+          "low_f": 27.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "seven-springs": {
+      "updated_at": "2026-11-20T18:40:11.972690+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 58.7,
+        "relative_humidity_2m": 58,
+        "apparent_temperature": 54.8,
+        "wind_speed_10m": 5.4,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 59.5,
+          "low_f": 43.4,
+          "snowfall_in": 0.0,
+          "weather_code": 0
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 58.2,
+          "low_f": 41.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 50.5,
+          "low_f": 43.2,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 50.5,
+          "low_f": 33.3,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 38.1,
+          "low_f": 27.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 38.1,
+          "low_f": 27.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 44.6,
+          "low_f": 30.3,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "snowshoe": {
+      "updated_at": "2026-11-20T18:40:12.330952+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 53.9,
+        "relative_humidity_2m": 34,
+        "apparent_temperature": 47.3,
+        "wind_speed_10m": 4.7,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 55.1,
+          "low_f": 39.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 50.2,
+          "low_f": 36.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 44.0,
+          "low_f": 39.5,
+          "snowfall_in": 0.0,
+          "weather_code": 63
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 47.2,
+          "low_f": 37.9,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 37.9,
+          "low_f": 21.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 33.9,
+          "low_f": 20.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 36.2,
+          "low_f": 25.3,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "wintergreen": {
+      "updated_at": "2026-11-20T18:40:12.687958+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 57.5,
+        "relative_humidity_2m": 26,
+        "apparent_temperature": 51.2,
+        "wind_speed_10m": 3.2,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 57.6,
+          "low_f": 43.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 49.8,
+          "low_f": 42.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 47.7,
+          "low_f": 40.2,
+          "snowfall_in": 0.0,
+          "weather_code": 63
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 56.8,
+          "low_f": 45.8,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 46.7,
+          "low_f": 26.3,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 35.6,
+          "low_f": 23.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.3,
+          "low_f": 27.8,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "massanutten": {
+      "updated_at": "2026-11-20T18:40:13.044665+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 62.5,
+        "relative_humidity_2m": 36,
+        "apparent_temperature": 58.1,
+        "wind_speed_10m": 2.7,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 63.3,
+          "low_f": 39.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 59.2,
+          "low_f": 47.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 51.6,
+          "low_f": 45.1,
+          "snowfall_in": 0.0,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 60.2,
+          "low_f": 48.3,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 50.4,
+          "low_f": 31.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 42.8,
+          "low_f": 27.5,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 43.6,
+          "low_f": 31.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "beech-mountain": {
+      "updated_at": "2026-11-20T18:40:13.405410+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 54.1,
+        "relative_humidity_2m": 40,
+        "apparent_temperature": 46.6,
+        "wind_speed_10m": 8.6,
+        "snowfall": 0.0,
+        "weather_code": 0
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
+          "date": "2026-11-20",
+          "high_f": 54.5,
+          "low_f": 38.0,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 50.2,
+          "low_f": 35.8,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 46.8,
+          "low_f": 42.9,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 52.2,
+          "low_f": 39.6,
+          "snowfall_in": 0.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 45.0,
+          "low_f": 36.0,
+          "snowfall_in": 0.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 37.9,
+          "low_f": 27.4,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 37.7,
+          "low_f": 33.1,
+          "snowfall_in": 0.0,
+          "weather_code": 63
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "boyne-mountain": {
+      "updated_at": "2026-11-20T18:40:13.764105+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T13:30",
+        "interval": 900,
+        "temperature_2m": 60.6,
+        "relative_humidity_2m": 37,
+        "apparent_temperature": 53.5,
+        "wind_speed_10m": 8.6,
         "snowfall": 0.0,
         "weather_code": 3
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 47.8,
-          "low_f": 42.7,
+          "date": "2026-11-20",
+          "high_f": 61.9,
+          "low_f": 34.5,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
+          "date": "2026-11-21",
+          "high_f": 66.3,
+          "low_f": 50.8,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-22",
+          "high_f": 58.2,
+          "low_f": 41.1,
+          "snowfall_in": 0.0,
+          "weather_code": 63
+        },
+        {
+          "date": "2026-11-23",
+          "high_f": 41.1,
+          "low_f": 31.2,
+          "snowfall_in": 0.1,
+          "weather_code": 85
+        },
+        {
+          "date": "2026-11-24",
+          "high_f": 35.2,
+          "low_f": 24.2,
+          "snowfall_in": 0.1,
+          "weather_code": 86
+        },
+        {
+          "date": "2026-11-25",
+          "high_f": 38.7,
+          "low_f": 28.2,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 42.8,
+          "low_f": 28.6,
+          "snowfall_in": 0.0,
+          "weather_code": 2
+        }
+      ],
+      "base_depth_in": null,
+      "trails_open": null,
+      "trails_total": null,
+      "lifts_open": null,
+      "lifts_total": null
+    },
+    "lutsen": {
+      "updated_at": "2026-11-20T18:40:14.119818+00:00",
+      "source": "Open-Meteo modeled weather",
+      "current": {
+        "time": "2026-11-20T12:30",
+        "interval": 900,
+        "temperature_2m": 43.9,
+        "relative_humidity_2m": 97,
+        "apparent_temperature": 38.4,
+        "wind_speed_10m": 8.9,
+        "snowfall": 0.0,
+        "weather_code": 3
+      },
+      "recent_snowfall_24h_in": 0.0,
+      "daily": [
+        {
           "date": "2026-11-20",
-          "high_f": 50.5,
+          "high_f": 52.4,
+          "low_f": 40.6,
+          "snowfall_in": 0.0,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-11-21",
+          "high_f": 54.7,
           "low_f": 38.9,
           "snowfall_in": 0.0,
           "weather_code": 51
         },
         {
-          "date": "2026-11-21",
-          "high_f": 52.6,
-          "low_f": 41.4,
-          "snowfall_in": 0.0,
-          "weather_code": 51
-        },
-        {
           "date": "2026-11-22",
-          "high_f": 41.4,
-          "low_f": 26.4,
+          "high_f": 39.3,
+          "low_f": 29.2,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 26.4,
-          "low_f": 18.3,
+          "high_f": 29.2,
+          "low_f": 22.4,
           "snowfall_in": 0.0,
-          "weather_code": 0
+          "weather_code": 3
         },
         {
           "date": "2026-11-24",
-          "high_f": 28.9,
-          "low_f": 17.5,
+          "high_f": 30.3,
+          "low_f": 20.0,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 31.7,
-          "low_f": 26.4,
-          "snowfall_in": 0.2,
-          "weather_code": 73
+          "high_f": 35.4,
+          "low_f": 28.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 38.1,
+          "low_f": 32.6,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         }
       ],
       "base_depth_in": null,
@@ -2700,68 +2700,68 @@
       "lifts_total": null
     },
     "alyeska": {
-      "updated_at": "2026-11-19T19:04:13.641420+00:00",
+      "updated_at": "2026-11-20T18:40:14.474297+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T10:00",
+        "time": "2026-11-20T09:30",
         "interval": 900,
-        "temperature_2m": 37.8,
-        "relative_humidity_2m": 86,
-        "apparent_temperature": 29.4,
-        "wind_speed_10m": 11.7,
+        "temperature_2m": 22.7,
+        "relative_humidity_2m": 59,
+        "apparent_temperature": 16.0,
+        "wind_speed_10m": 1.2,
         "snowfall": 0.0,
-        "weather_code": 63
+        "weather_code": 0
       },
-      "recent_snowfall_24h_in": 0.0,
+      "recent_snowfall_24h_in": 0.1,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 38.4,
-          "low_f": 27.2,
-          "snowfall_in": 0.1,
-          "weather_code": 73
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 27.0,
-          "low_f": 20.4,
+          "high_f": 30.8,
+          "low_f": 21.8,
           "snowfall_in": 0.0,
-          "weather_code": 85
+          "weather_code": 71
         },
         {
           "date": "2026-11-21",
-          "high_f": 34.5,
-          "low_f": 26.9,
+          "high_f": 33.5,
+          "low_f": 26.0,
           "snowfall_in": 0.0,
           "weather_code": 51
         },
         {
           "date": "2026-11-22",
-          "high_f": 35.1,
-          "low_f": 24.1,
+          "high_f": 34.4,
+          "low_f": 25.8,
           "snowfall_in": 0.0,
           "weather_code": 45
         },
         {
           "date": "2026-11-23",
-          "high_f": 34.2,
-          "low_f": 28.0,
+          "high_f": 27.2,
+          "low_f": 21.8,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 0
         },
         {
           "date": "2026-11-24",
-          "high_f": 36.7,
-          "low_f": 26.5,
+          "high_f": 23.8,
+          "low_f": 20.0,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 1
         },
         {
           "date": "2026-11-25",
-          "high_f": 36.7,
-          "low_f": 30.4,
+          "high_f": 28.0,
+          "low_f": 22.3,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 0
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 30.4,
+          "low_f": 23.6,
+          "snowfall_in": 0.0,
+          "weather_code": 0
         }
       ],
       "base_depth_in": null,
@@ -2771,68 +2771,68 @@
       "lifts_total": null
     },
     "palisades-tahoe": {
-      "updated_at": "2026-11-19T19:04:04.822578+00:00",
+      "updated_at": "2026-11-20T18:40:20.724966+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T11:00",
+        "time": "2026-11-20T10:30",
         "interval": 900,
-        "temperature_2m": 32.1,
-        "relative_humidity_2m": 85,
-        "apparent_temperature": 22.9,
-        "wind_speed_10m": 11.4,
+        "temperature_2m": 29.3,
+        "relative_humidity_2m": 79,
+        "apparent_temperature": 21.7,
+        "wind_speed_10m": 6.1,
         "snowfall": 0.0,
-        "weather_code": 63
+        "weather_code": 3
       },
-      "recent_snowfall_24h_in": 3.4,
+      "recent_snowfall_24h_in": 1.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 32.7,
-          "low_f": 16.6,
-          "snowfall_in": 2.7,
-          "weather_code": 75
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 32.3,
-          "low_f": 16.9,
-          "snowfall_in": 0.4,
-          "weather_code": 75
+          "high_f": 32.5,
+          "low_f": 15.6,
+          "snowfall_in": 0.5,
+          "weather_code": 73
         },
         {
           "date": "2026-11-21",
-          "high_f": 33.2,
-          "low_f": 8.6,
-          "snowfall_in": 0.1,
-          "weather_code": 73
+          "high_f": 34.8,
+          "low_f": 15.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 32.8,
-          "low_f": 18.3,
-          "snowfall_in": 1.0,
-          "weather_code": 73
+          "high_f": 30.6,
+          "low_f": 21.8,
+          "snowfall_in": 1.5,
+          "weather_code": 75
         },
         {
           "date": "2026-11-23",
-          "high_f": 33.1,
-          "low_f": 9.8,
-          "snowfall_in": 0.0,
-          "weather_code": 45
+          "high_f": 34.0,
+          "low_f": 15.6,
+          "snowfall_in": 0.2,
+          "weather_code": 73
         },
         {
           "date": "2026-11-24",
-          "high_f": 35.1,
-          "low_f": 17.0,
+          "high_f": 36.6,
+          "low_f": 15.2,
           "snowfall_in": 0.0,
-          "weather_code": 45
+          "weather_code": 51
         },
         {
           "date": "2026-11-25",
-          "high_f": 34.2,
-          "low_f": 16.3,
+          "high_f": 35.9,
+          "low_f": 18.7,
+          "snowfall_in": 0.3,
+          "weather_code": 73
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 35.4,
+          "low_f": 24.1,
           "snowfall_in": 0.0,
-          "weather_code": 71
+          "weather_code": 53
         }
       ],
       "base_depth_in": null,
@@ -2842,66 +2842,66 @@
       "lifts_total": null
     },
     "whiteface": {
-      "updated_at": "2026-11-19T19:04:10.512731+00:00",
+      "updated_at": "2026-11-20T18:40:11.254035+00:00",
       "source": "Open-Meteo modeled weather",
       "current": {
-        "time": "2026-11-19T14:00",
+        "time": "2026-11-20T13:30",
         "interval": 900,
-        "temperature_2m": 59.0,
-        "relative_humidity_2m": 30,
-        "apparent_temperature": 49.0,
-        "wind_speed_10m": 13.2,
+        "temperature_2m": 59.9,
+        "relative_humidity_2m": 35,
+        "apparent_temperature": 52.5,
+        "wind_speed_10m": 8.5,
         "snowfall": 0.0,
-        "weather_code": 1
+        "weather_code": 0
       },
       "recent_snowfall_24h_in": 0.0,
       "daily": [
         {
-          "date": "2026-11-19",
-          "high_f": 60.3,
-          "low_f": 45.7,
-          "snowfall_in": 0.0,
-          "weather_code": 3
-        },
-        {
           "date": "2026-11-20",
-          "high_f": 54.1,
-          "low_f": 40.5,
+          "high_f": 60.9,
+          "low_f": 44.0,
           "snowfall_in": 0.0,
-          "weather_code": 3
+          "weather_code": 0
         },
         {
           "date": "2026-11-21",
-          "high_f": 60.6,
-          "low_f": 39.5,
+          "high_f": 61.8,
+          "low_f": 43.8,
           "snowfall_in": 0.0,
           "weather_code": 3
         },
         {
           "date": "2026-11-22",
-          "high_f": 59.5,
-          "low_f": 44.3,
+          "high_f": 58.4,
+          "low_f": 46.0,
           "snowfall_in": 0.0,
-          "weather_code": 63
+          "weather_code": 3
         },
         {
           "date": "2026-11-23",
-          "high_f": 50.7,
-          "low_f": 30.8,
+          "high_f": 51.8,
+          "low_f": 32.1,
           "snowfall_in": 0.0,
-          "weather_code": 85
+          "weather_code": 51
         },
         {
           "date": "2026-11-24",
-          "high_f": 30.8,
-          "low_f": 22.9,
-          "snowfall_in": 0.1,
-          "weather_code": 85
+          "high_f": 35.5,
+          "low_f": 26.9,
+          "snowfall_in": 0.0,
+          "weather_code": 3
         },
         {
           "date": "2026-11-25",
-          "high_f": 35.0,
-          "low_f": 20.6,
+          "high_f": 38.4,
+          "low_f": 24.7,
+          "snowfall_in": 0.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-26",
+          "high_f": 41.3,
+          "low_f": 27.9,
           "snowfall_in": 0.0,
           "weather_code": 3
         }
